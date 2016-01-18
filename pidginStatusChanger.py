@@ -15,6 +15,7 @@ import subprocess as sp
 import random
 import time
 # Kill any open pidgin instances
+purplePath = "Enter the path of your .purple dir"
 if(8<time.localtime()[3]<15):
 	os.system("TASKKILL /F /IM pidgin.exe")
 
@@ -55,11 +56,11 @@ if(8<time.localtime()[3]<15):
 	epochTime = statusData[3][54:64]
 	print type(epochTime)
 	statusFile.close()
-	with open('C:\Users\harshs\AppData\Roaming\.purple\status.xml', 'w') as statusFile:
+	with open(purplePath+'status.xml', 'w') as statusFile:
 		statusFile.writelines(statusData)
 		
 	#Verify prefs.xml
-	prefsFile = open('prefs.xml','r')
+	prefsFile = open(purplePath+'prefs.xml','r')
 	prefsData = prefsFile.readlines()
 	prefsFile.close()
 	
@@ -67,7 +68,7 @@ if(8<time.localtime()[3]<15):
 		prefsList = list(prefsData[29])
 		prefsList[42:52]=list(epochTime)
 		prefsData[29]=''.join(prefsList)
-		with open('C:\Users\harshs\AppData\Roaming\.purple\prefs.xml', 'w') as prefsFile:
+		with open(purplePath+'prefs.xml', 'w') as prefsFile:
 			prefsFile.writelines(prefsData)
 		
 		
@@ -82,6 +83,6 @@ print '------------DONE------------'
 if (len(others) < 2):
 	print "Please update the quotes in the file."
 	programName = "notepad.exe"
-	fileName = "C:\Users\harshs\AppData\Roaming\.purple\\" + fname
+	fileName = purplePath + fname
 	sp.Popen([programName, fileName])
 
