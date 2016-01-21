@@ -3,7 +3,8 @@
 Created on Wed Jan 20 11:05:59 2016
 @author: HarshSharma12
 
-A general bs4 and requests example
+Script to download all songs present in 
+listOfSongs.txt, from mp3skull.ccom
 (Uses proxy)
 """
 from bs4 import BeautifulSoup
