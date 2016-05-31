@@ -1,7 +1,10 @@
 /**
-Sends emojis to a user on web.whatsapp.com
-1) Select a user/group/list
-2) Paste script in console
+ * Created on Sun May 22 16:43:23 2015
+ * @author: HarshSharma12
+ * 
+ * Sends emojis to a user on web.whatsapp.com
+ * 	1) Select a user/group/list
+ * 	2) Paste script in console
 */
 
 var msgCount = 100;
