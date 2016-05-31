@@ -1,8 +1,8 @@
 # fun-scripts
 
-Contains some random python scripts that I wrote in my free time
+Contains some random (mostly python) scripts that I wrote in my free time
 
-## File details
+### File details
 
 File Name | Desciption
 ------------ | -------------
@@ -14,4 +14,4 @@ File Name | Desciption
 [whatsappEmojiSpam.js](whatsappEmojiSpam.js) | Spam your friends on whatsapp with random emojis
 
 
-Provided under The MIT License (MIT)
+All files provided under The MIT License (MIT)
