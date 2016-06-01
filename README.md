@@ -12,6 +12,7 @@ File Name | Desciption
 [barron1.txt](barron1.txt) | Barron's word list for GRE along with the meanings
 [mp3Download.py](mp3Download.py) | Reads name of songs from listOfSongs.txt file and downloads them
 [whatsappEmojiSpam.js](whatsappEmojiSpam.js) | Spam your friends on whatsapp with random emojis
+[whatsappTextSpam.js](whatsappTextSpam.js) |  Spam your friends on whatsapp with random text
 
 
 All files provided under The MIT License (MIT)
