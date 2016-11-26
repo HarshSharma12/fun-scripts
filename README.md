@@ -13,6 +13,7 @@ File Name | Desciption
 [mp3Download.py](mp3Download.py) | Reads name of songs from listOfSongs.txt file and downloads them
 [whatsappEmojiSpam.js](whatsappEmojiSpam.js) | Spam your friends on whatsapp with random emojis
 [whatsappTextSpam.js](whatsappTextSpam.js) |  Spam your friends on whatsapp with random text
+[unique_list_generator.py](unique_list_generator.py) |  Filter out duplicate lines in a file
 
 
 All files provided under The MIT License (MIT)
