@@ -31,7 +31,7 @@ for yy in listOrig:
         i = i + 1
 
 print i
-fid = open(fname + '.txt', 'w')
+fid = open(fname + exten, 'w')
 
 b = unique_list(stemmed)
 try:
